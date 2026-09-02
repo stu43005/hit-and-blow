@@ -1,0 +1,29 @@
+.code-pegs {
+  display: inline-flex;
+  gap: 6px;
+}
+
+.peg {
+  display: block;
+  border-radius: 50%;
+  box-shadow: inset 0 -2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.peg--bordered {
+  box-shadow: inset 0 -2px 4px rgba(0, 0, 0, 0.15), inset 0 0 0 1px rgba(0, 0, 0, 0.2);
+}
+
+.code-pegs--sm .peg {
+  width: 16px;
+  height: 16px;
+}
+
+.code-pegs--md .peg {
+  width: 24px;
+  height: 24px;
+}
+
+.code-pegs--lg .peg {
+  width: 34px;
+  height: 34px;
+}
